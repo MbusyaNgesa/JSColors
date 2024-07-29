@@ -1,0 +1,41 @@
+body{
+    background: black;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    color: azure;
+    text-align: center;
+}
+#color-box{
+    position: absolute;
+    padding: 5px;
+    border: 2px solid;
+    top: 30%;
+    background:#366;
+    width: 50%;
+    height: 50%;
+    border-radius: 40px;
+}
+#change-color-btn{
+    /* position: relative; */
+    bottom: 20px;
+    width: 50%;
+    overflow: hidden;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow:  0 3px 10px rgba(57, 104, 158, 0.2);
+    font-size: medium;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+#change-color-btn:hover{
+    background-color: #1d2b43;
+    color: #fff;
+}
+.btn{
+    position: relative;
+    top: 350px;
+    margin-left: 15px;
+}
